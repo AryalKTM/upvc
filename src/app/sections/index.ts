@@ -4,4 +4,4 @@ export { Why } from "./Why";
 export { Benefits } from "./Benefits";
 export { Projects } from "./Projects";
 export { Testimonials } from "./Testimonials";
-export { Faq }  from "./Faq";
+export { FaqSection }  from "./FaqSection";

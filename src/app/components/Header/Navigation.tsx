@@ -1,25 +1,23 @@
-import Link from "next/link";
-
-const Navigation = () => {
+type Props = {
+  close: () => void;
+};
+const Navigation = ({ close }: Props) => {
   return (
     <>
-      <li>
-        <Link href="#benefits"> Benefits</Link>
+      <li onClick={() => close()}>
+        <a href="#benefits"> Benefits</a>
       </li>
-      <li>
-        <Link href="#why"> Why Us?</Link>
+      <li onClick={() => close()}>
+        <a href="#why"> Why Us?</a>
       </li>
-      <li>
-        <Link href="#projects"> Projects</Link>
+      <li onClick={() => close()}>
+        <a href="#projects"> Projects</a>
       </li>
-      <li>
-        <Link href="#products"> Products</Link>
+      <li onClick={() => close()}>
+        <a href="#products"> Products</a>
       </li>
-      <li>
-        <Link href="#testimonials"> Testimonials</Link>
-      </li>
-      <li>
-        <Link href="#faq"> FAQ</Link>
+      <li onClick={() => close()}>
+        <a href="#faq"> FAQ</a>
       </li>
     </>
   );

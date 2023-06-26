@@ -1,16 +1,29 @@
-import { Benefits, Faq, Hero, Projects, TrustedBy, Why } from "./sections";
+import {
+  Benefits,
+  FaqSection,
+  Hero,
+  Projects,
+  Testimonials,
+  TrustedBy,
+  Why,
+} from "./sections";
+import { Comparison } from "./sections/Comparison";
 import Products from "./sections/Products/Products";
 
 const Home = () => {
+
+
   return (
-    <main className="container mx-auto min-h-screen">
+    <main className=" min-h-screen">
       <Hero />
       <TrustedBy />
       <Benefits />
+      <Comparison />
       <Why />
       <Projects />
       <Products />
-      <Faq/>
+      {/* <Testimonials /> */}
+      <FaqSection />
     </main>
   );
 };

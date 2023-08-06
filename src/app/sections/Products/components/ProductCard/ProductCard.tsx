@@ -4,15 +4,18 @@ import Image from "next/image";
 import { useState } from "react";
 import { Close } from "@/assets/icons";
 import { ExclamationMark } from "@/assets/icons/ExclamationMark";
+import Products from "../../Products";
 
 type Props = {
   product: Product;
 };
 
+
 export default function ProductCard({ product }: Props) {
   const [popUpIsOpen, setPopUpIsOpen] = useState(false);
 
   const openPopUp = () => {
+    (product.title==="Profiles") &&
     setPopUpIsOpen(true);
   };
 
@@ -23,24 +26,32 @@ export default function ProductCard({ product }: Props) {
   return (
     <figure className="flex flex-col w-full lg:w-96 mx-auto z-0">
       <div className="z-0">
-        <div className="relative group rounded-xl hover:border-primary hover:rounded-3xl hover:border-8 transition-all ">
+        <div className="relative group rounded-xl object-contain">
           <Image
             src={product.image}
             alt={product.title}
-            className="w-full object-cover cursor-pointer rounded-xl"
+            className={`profiless w-full object-cover rounded-xl ${(product.title==="Profiles")?"border-primary rounded-3xl border-8 cursor-pointer":""}`}
             width={400}
             height={400}
             onClick={openPopUp}
           />
-          <div className="text-primary absolute bottom-6 left-9 hidden group-hover:block text-md font-bold transition-all">
-            <div className="flex justify-start">
-              <div className="w-6 h-6 mr-2">
+          
+          {   
+
+               (product.title==="Profiles")&&(
+                <div className="text-primary absolute bottom-8 left-8 text-md font-bold">
+                <div className="flex justify-start">
+                <div className="w-6 h-6 mr-2">
                 <ExclamationMark />
-              </div>
-              <p>Click to view all types of profiles</p>
-            </div>
+                </div>
+               <p>Click to view all types profiles</p>
+               </div>
+               </div>
+                )
+        }
           </div>
-        </div>
+         
+
         <figcaption className="mt-4">
           <h3 className="font-bold text-xl lg:text-2xl">{product.title}</h3>
           <p className="mt-4 text-base lg:text-lg">{product.description}</p>

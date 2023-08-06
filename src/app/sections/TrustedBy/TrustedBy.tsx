@@ -34,7 +34,7 @@ const icons = [
 ];
 const TrustedBy = () => {
   return (
-    <section className="py-20" id="trusted-by">
+    <section className="py-20" id="trustedby">
       <Title>
         <TextUnderline>TRUSTED</TextUnderline> BY
       </Title>

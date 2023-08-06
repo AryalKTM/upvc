@@ -5,8 +5,8 @@ import { ProductCard } from "./components/ProductCard";
 const Products = () => {
   const products: Product[] = [
     {
-      image: "/images/products/doors.png",
-      title: "uPVC Doors",
+      image: "/images/products/Door.png",
+      title: "Doors",
       description:
         "Durable and secure entrance doors, patio doors, and sliding doors crafted from premium uPVC materials.",
         profiles : [],
@@ -14,8 +14,8 @@ const Products = () => {
 
 
     {
-      image: "/images/products/profiles.png",
-      title: "uPVC Profiles",
+      image: "/images/products/profiles1.png",
+      title: "Profiles",
       description:
         "Versatile uPVC profiles used for various applications such as skirting boards, trimmings, and decorative elements.",
         profiles : [
@@ -80,29 +80,29 @@ const Products = () => {
         ],
       },
       {
-        image: "/images/products/windows.png",
-        title: "uPVC Windows",
+        image: "/images/products/Window.png",
+        title: "Windows",
         description:
           "High-quality, energy-efficient windows in various styles and designs, customized to fit any architectural requirement.",
         profiles: []
       },
       {
-        image: "/images/products/structuralGlazing.png",
+        image: "/images/products/Structural-Glazing.png",
         title: "Structural Glazing",
         description:
           "Frameless glass panels seamlessly integrated to create unobstructed views and bright, energy-efficient spaces.",
           profiles : [],
       },
       {
-        image: "/images/products/conservatories.png",
-        title: "uPVC Conservatories",
+        image: "/images/products/Conservatory.png",
+        title: "Conservatories",
         description:
           "Harmonious spaces that merge indoor luxury with the beauty of the outdoors. Durable, energy-efficient, and elegantly designed to create your personal oasis.",
           profiles : [],
       },
       {
-        image: "/images/products/skyLights.png",
-        title: "uPVC Skylights",
+        image: "/images/products/Skylight.png",
+        title: "Skylights",
         description:
           "Discover a brighter ambiance bringing the beauty of the outdoors inside, while ensuring energy efficiency.",
           profiles : [],
@@ -119,6 +119,7 @@ const Products = () => {
         {products.map((product, i) => (
           <div className="lg:basis-1/2 xl:basis-1/3 p-5 flex-start" key={product.title + "-" + i}>
             <ProductCard product={product} />
+           
           </div>
         ))}
       </div>

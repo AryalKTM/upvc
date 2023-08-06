@@ -50,7 +50,7 @@ const Why = () => {
       <Title>
         WHY YOU SHOULD <TextUnderline>WORK WITH US</TextUnderline>
       </Title>
-      <div className="text-primary flex flex-col lg:flex-row flex-wrap py-11 rounded-xl mt-4 lg:mt-16">
+      <div className="text-primary flex flex-col lg:flex-row flex-wrap py-11 pb-0 rounded-xl mt-4 lg:mt-16">
         {data.map(({ title, description }, i) => (
           <div className="basis-1/2" key={title + "-" + i}>
             <IconCard

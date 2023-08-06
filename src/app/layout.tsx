@@ -22,7 +22,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={clsx(roboto.className, "bg-white")}>
+      <body className={clsx(roboto.className, "bg-white min-w-[340px]")}>
         <Header />
         {children}
         <Footer />

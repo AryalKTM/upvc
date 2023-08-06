@@ -4,6 +4,9 @@ type Props = {
 const Navigation = ({ close }: Props) => {
   return (
     <>
+          <li onClick={() => close()}>
+        <a href="#trustedby"> Trusted By</a>
+      </li>
       <li onClick={() => close()}>
         <a href="#benefits"> Benefits</a>
       </li>

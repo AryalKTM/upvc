@@ -36,7 +36,7 @@ const Footer = () => {
               <div className="flex flex-row lg:flex-col items-start gap-3 basis-1/2 p-2">
                 <p>Follow us on:</p>
                 <div>
-                  <a href="">
+                  <a href="https://www.facebook.com/profile.php?id=100065622723811">
                     <Facebook />
                   </a>
                 </div>

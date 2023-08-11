@@ -4,15 +4,17 @@ import Image from "next/image";
 import Link from "next/link";
 import HeroImage from "@/assets/images/hero_image.png";
 import { AnimatePresence } from "framer-motion";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { toast } from "react-hot-toast";
 
 const Hero = () => {
   const [contactForm, setShowContactForm] = useState(false);
+
   return (
     <>
-      <section id="home" className="lg:py-20 mx-auto lg:container">
-        <div className="flex flex-row items-center relative">
-          <div className="rounded-xl lg:basis-1/2 lg:px-10 absolute lg:static z-10 top-0 inset-x-0 w-screen h-[95vh] lg:w-auto lg:h-auto">
+      <section id="home" className="lg:py-20 mx-auto lg:container ">
+        <div className="flex flex-row items-center relative ">
+          <div className="rounded-xl lg:basis-1/2 lg:px-10 absolute lg:static z-10 top-0 inset-x-0 w-full h-[95vh] lg:w-auto lg:h-auto">
             <Image
               src={HeroImage}
               alt=""
@@ -21,7 +23,7 @@ const Hero = () => {
               className="object-cover w-full h-full"
             />
           </div>
-          <div className="flex flex-col lg:basis-1/2 px-10 relative z-30 text-white lg:text-black bg-primary bg-opacity-50 lg:bg-white w-screen h-[95vh] lg:w-auto lg:h-auto text-center lg:text-left items-center justify-center lg:items-start">
+          <div className="flex flex-col lg:basis-1/2 px-10 relative z-30 text-white lg:text-black bg-primary bg-opacity-50 lg:bg-white w-full h-[95vh] lg:w-auto lg:h-auto text-center lg:text-left items-center justify-center lg:items-start">
             <h1 className="font-bold lg:text-6xl text-4xl">
               Nepal&apos;s first uPVC Excursion Plant
             </h1>

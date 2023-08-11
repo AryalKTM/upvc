@@ -30,3 +30,6 @@ module.exports = {
     },
     plugins: [],
 }
+//teaching hospital
+//first-1,4,6
+//second-2ta

@@ -8,7 +8,7 @@ type Props = {
 
 export default function ProjectCard({project}: Props) {
   return (
-    <div className="relative w-full h-full">
+    <div className="relative w-full h-96">
       <Image
         src={project.image}
         alt={project.title}

@@ -1,0 +1,6 @@
+.iconcard .icon svg {
+    /* fill: #B84139; */
+    @apply group-hover:fill-black ;
+    /* color: #B84139; */
+    
+}

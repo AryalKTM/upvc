@@ -21,9 +21,9 @@ const icons = [
   },
 
   {
-    name: "Roadshow Construction Pvt Ltd",
+    name: "Hotel De'l Annapurna",
     url: "",
-    icon: "/images/trustedby/roadshow.png",
+    icon: "/images/trustedby/annapurnaHotell.png",
   },
 
   {
@@ -46,7 +46,7 @@ const TrustedBy = () => {
               className="object-contain"
               src={icon.icon}
               alt={"error"}
-              width={130}
+              width={`${(icon.name!=="Hotel De'l Annapurna"?(130):190)}`}
               height={130}
             ></Image>
           </a>

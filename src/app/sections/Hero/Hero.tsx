@@ -4,10 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import HeroImage from "@/assets/images/hero_image.png";
 import { AnimatePresence } from "framer-motion";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { toast } from "react-hot-toast";
 
 const Hero = () => {
   const [contactForm, setShowContactForm] = useState(false);
+
   return (
     <>
       <section id="home" className="lg:py-20 mx-auto lg:container ">

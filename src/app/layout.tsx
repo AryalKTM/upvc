@@ -3,6 +3,7 @@ import "./globals.css";
 import { Roboto } from "next/font/google";
 import { Footer, Header } from "@/app/components";
 import clsx from "clsx";
+import { Toaster } from "react-hot-toast";
 
 const roboto = Roboto({
   weight: ["400", "500", "700", "900"],
@@ -26,6 +27,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Toaster />
       </body>
     </html>
   );

@@ -19,63 +19,75 @@ const Products = () => {
       description:
         "Versatile uPVC profiles used for various applications such as skirting boards, trimmings, and decorative elements.",
         profiles : [
+          
           {
-            image: '/images/productMap/Frame 29.png'
-            //profiles[]=nAME,IMG
+            image: '/images/productMap/Frame 48.svg'
           },
           {
-            image: '/images/productMap/Frame 30.png'
+            image: '/images/productMap/Frame 49.svg'
           },
           {
-            image: '/images/productMap/Frame 31.png'
+            image: '/images/productMap/Frame 50.svg'
           },
           {
-            image: '/images/productMap/Frame 32.png'
+            image: '/images/productMap/Frame 51.svg'
           },
           {
-            image: '/images/productMap/Frame 33.png'
+            image: '/images/productMap/Frame 52.svg'
           },
           {
-            image: '/images/productMap/Frame 34.png'
+            image: '/images/productMap/Frame 53.svg'
           },
           {
-            image: '/images/productMap/Frame 35.png'
+            image: '/images/productMap/Frame 54.svg'
           },
           {
-            image: '/images/productMap/Frame 36.png'
+            image: '/images/productMap/Frame 55.svg'
           },
           {
-            image: '/images/productMap/Frame 37.png'
+            image: '/images/productMap/Frame 56.svg'
           },
           {
-            image: '/images/productMap/Frame 38.png'
+            image: '/images/productMap/Frame 57.svg'
           },
           {
-            image: '/images/productMap/Frame 39.png'
+            image: '/images/productMap/Frame 58.svg'
           },
           {
-            image: '/images/productMap/Frame 40.png'
+            image: '/images/productMap/Frame 59.svg'
           },
           {
-            image: '/images/productMap/Frame 41.png'
+            image: '/images/productMap/Frame 60.svg'
           },
           {
-            image: '/images/productMap/Frame 42.png'
+            image: '/images/productMap/Frame 61.svg'
           },
           {
-            image: '/images/productMap/Frame 43.png'
+            image: '/images/productMap/Frame 62.svg'
           },
           {
-            image: '/images/productMap/Frame 44.png'
+            image: '/images/productMap/Frame 63.svg'
           },
           {
-            image: '/images/productMap/Frame 45.png'
+            image: '/images/productMap/Frame 64.svg'
           },
           {
-            image: '/images/productMap/Frame 46.png'
+            image: '/images/productMap/Frame 65.svg'
           },
           {
-            image: '/images/productMap/Frame 47.png'
+            image: '/images/productMap/Frame 66.svg'
+          },
+          {
+            image: '/images/productMap/Frame 67.svg'
+          },
+          {
+            image: '/images/productMap/Frame 68.svg'
+          },
+          {
+            image: '/images/productMap/Frame 69.svg'
+          },
+          {
+            image: '/images/productMap/Frame 70.svg'
           },
         ],
       },

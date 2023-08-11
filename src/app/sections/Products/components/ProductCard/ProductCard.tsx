@@ -73,15 +73,15 @@ export default function ProductCard({ product }: Props) {
               <p className="lg:text-lg text-sm lg:pt-2">
                 Find the ideal profile to match your build.
               </p>
-              <div className="flex lg:flex-row lg:flex-wrap lg:p-7 lg:m-8 lg:mt-0 z-0 flex-col">
+              <div className="flex lg:flex-row lg:flex-wrap lg:p-7 lg:m-8 lg:mt-0 z-0 flex-col lg:gap-6 gap-2 lg:justify-around">
                 {product.profiles.map((profile, index) => (
                   <Image
                     key={index}
-                    className="object-contain basis-1/2 lg:p-7 p-5"
+                    className={`object-contain lg:basis-2/5 lg:m-2 lg:p-7 p-5 border-black border-[1px] `}
                     src={profile.image}
                     alt={"error"}
-                    width={280}
-                    height={200}
+                    width={230}
+                    height={230}
                   />
                 ))}
               </div>

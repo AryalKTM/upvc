@@ -11,7 +11,7 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Roadshow uPvc",
+  title: "Roadshow uPVC",
   description: "Nepal's first uPVC Excursion Plant",
 };
 

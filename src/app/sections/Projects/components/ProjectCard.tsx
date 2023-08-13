@@ -16,7 +16,7 @@ export default function ProjectCard({project}: Props) {
         width={400}
         height={400}
       />
-      <p className="absolute bg-white bottom-6 font-medium text-2xl text-primary p-2 w-full text-center">
+      <p className="absolute bg-primary bottom-6 font-medium text-2xl text-white p-2 w-full text-center">
         {project.title}
       </p>
     </div>

@@ -41,7 +41,7 @@ const TrustedBy = () => {
       <br></br>
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-32 justify-center mt-20 items-center">
         {icons.map((icon) => (
-          <a href={icon.url}>
+          <a href={icon.url} key={icon.name}>
             <Image
               className="object-contain"
               src={icon.icon}

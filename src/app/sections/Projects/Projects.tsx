@@ -17,7 +17,7 @@ const Projects = () => {
   ];
 
   return (
-    <Section id="projects ">
+    <Section id="projects">
       <Title>
         Our Recent <TextUnderline>Projects</TextUnderline>
       </Title>

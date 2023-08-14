@@ -11,11 +11,14 @@ const Footer = () => {
             <Image src={Logo} alt="Logo" />
 
             <div className="flex flex-row lg:flex-col mt-8 flex-wrap justify-center">
-              <p className="flex flex-row gap-2 items-center basis-1/2 justify-end lg:justify-start p-2">
+              <p className="flex flex-row gap-2 items-center basis-1/2 justify-end lg:justify-start p-2 ">
                 <span>
                   <Location />
                 </span>{" "}
-                Naxal, Kathmandu
+                <div className="flex flex-col pl-1">
+                <span>Attarkhel, Jorpati</span>
+                <span>Kathmandu, Nepal</span>
+                </div>
               </p>
               <p className="flex flex-row gap-2 items-center basis-1/2 p-2">
                 <span>
@@ -30,7 +33,10 @@ const Footer = () => {
                 <span>
                   <Phone />{" "}
                 </span>
-                <a href="tel:9810130909">981-013-0909</a>
+                <div className="pl-1 flex flex-col">
+                <a href="tel:01-4912868">01-4912868</a>
+                <a href="tel:9851245933">+977 9851245933</a>
+                </div>
               </p>
 
               <div className="flex flex-row lg:flex-col items-start gap-3 basis-1/2 p-2">

@@ -3,9 +3,27 @@ import Image from "next/image";
 
 const icons = [
   {
+    name: "Roadhshow",
+    url: "https://roadshowrealestate.com/",
+    icon: "/images/trustedby/roadshow.png",
+  },
+
+  {
+    name: "Annapurna Cable Car",
+    url: "https://www.annapurnacablecar.com.np/",
+    icon: "/images/trustedby/annapurnaCableCar.png",
+  },
+
+  {
     name: "Bhatbhateni",
     url: "https://www.bbsm.com.np/",
-    icon: "/images/trustedby/bhatbhatenii_png .png",
+    icon: "/images/trustedby/bhatbhatenilogo.png",
+  },
+
+  {
+    name: "Hotel De'l Annapurna",
+    url: "https://annapurnahotels.com/",
+    icon: "/images/trustedby/annapurnaHotell.png",
   },
 
   {
@@ -20,33 +38,23 @@ const icons = [
     icon: "/images/trustedby/lo_mustang_hotel_png.png",
   },
 
-  {
-    name: "Hotel De'l Annapurna",
-    url: "",
-    icon: "/images/trustedby/annapurnaHotell.png",
-  },
 
-  {
-    name: "Annapurna Cable Car",
-    url: "https://www.annapurnacablecar.com.np/",
-    icon: "/images/trustedby/annapurnaCableCar.png",
-  },
 ];
 const TrustedBy = () => {
   return (
-    <section className="py-20" id="trustedby">
+    <section className="py-20 px-10" id="trustedby">
       <Title>
         <TextUnderline>TRUSTED</TextUnderline> BY
       </Title>
       <br></br>
-      <div className="flex flex-col lg:flex-row gap-10 lg:gap-32 justify-center mt-20 items-center">
+      <div className="flex flex-col lg:flex-row gap-10 lg:gap-24 justify-center mt-20 items-center">
         {icons.map((icon) => (
           <a href={icon.url} key={icon.name}>
             <Image
               className="object-contain"
               src={icon.icon}
               alt={"error"}
-              width={`${(icon.name!=="Hotel De'l Annapurna"?(130):190)}`}
+              width={`${(icon.name!=="Hotel De'l Annapurna"?(130):170)}`}
               height={130}
             ></Image>
           </a>

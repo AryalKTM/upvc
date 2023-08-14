@@ -46,17 +46,35 @@ export default function Comparison() {
       "Thermally inefficient",
       "Minimal Thermal Insulation",
     ],
+    [
+      "Environmental Impact",
+      "Recyclable and requires fewer resources",
+      "Recyclable but requires more resources",
+      "Not recyclable",
+    ],
+    [
+      "Sound In Operation",
+      "Minimal sound signature",
+      "Loud sounds when operating",
+      "Loud sounds when opening or closing",
+    ],
+    [
+      "Longetivity",
+      "Minimal weathering",
+      "Prone to rusting and corrosion",
+      "Prone to weathering/warping",
+    ],
   ];
 
   return (
     <Section>
-        <Title><TextUnderline>uPvc</TextUnderline> vs its alternatives</Title>
+        <Title><TextUnderline>uPVC</TextUnderline> vs its alternatives</Title>
       <div className="px-5 overflow-x-auto mt-8 lg:mt-16">
         <table className="mx-auto">
           <tbody className="text-base lg:text-xl">
             <tr className="bg-primary text-white">
               <th className="rounded-l-lg lg:p-6"></th>
-              <th className="lg:p-6">uPvc</th>
+              <th className="lg:p-6">uPVC</th>
               <th className="lgp-6">Aluminium</th>
               <th className="p-6 rounded-r-lg">Wood</th>
             </tr>

@@ -9,7 +9,7 @@ const Projects = () => {
     { title: "Bhatbhateni Supermarket", image: "/images/projects/BhatbhateniProject.jpeg" },
     { title: "Hotel De'l Annapurna", image: "/images/projects/HotelAnnapurna.jpg" },
     { title: "Roadhshow Housing", image: "/images/projects/RoadhshowHousing.jpg" },
-    { title: "Bhatbhateni Apartment", image: "/images/projects/Apartment.jpg" },
+    { title: "Bhatbhateni Apartments", image: "/images/projects/Apartment.jpg" },
     { title: "Annapurna Cable Car", image: "/images/projects/AnnarpurnaCableCar.jpeg" },
     { title: "Valley Homes", image: "/images/projects/ResidentialPic.jpg" },
     { title: "Deep Housing, Pokhara", image: "/images/projects/DeepHousing1.jpg" },
@@ -19,7 +19,7 @@ const Projects = () => {
   return (
     <Section id="projects">
       <Title>
-        Our Recent <TextUnderline>Projects</TextUnderline>
+        Our <TextUnderline>Projects</TextUnderline>
       </Title>
 
       <div className="lg:grid lg:grid-cols-4 lg:gap-5 lg:grid-rows-2 flex flex-col mx-auto px-6 lg:px-0 gap-10 mt-16 ">

@@ -26,8 +26,8 @@ export default function RootLayout({
       <body className={clsx(roboto.className, "bg-white min-w-[340px]")}>
         <Header />
         {children}
-        <Footer />
-        <Toaster />
+        <Footer/>
+        <Toaster/>
       </body>
     </html>
   );

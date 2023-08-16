@@ -123,7 +123,7 @@ const Products = () => {
   ];
 
   return (
-    <Section className="py-20" id="products">
+    <Section className="" id="products">
       <Title>
         OUR <TextUnderline>PRODUCTS</TextUnderline>
       </Title>

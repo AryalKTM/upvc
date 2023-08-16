@@ -26,7 +26,7 @@ export default function ProductCard({ product }: Props) {
   return (
     <figure className="flex flex-col w-full lg:w-96 mx-auto z-0">
       <div className="z-0">
-        <div className="relative group rounded-xl object-contain">
+        <div className="relative group rounded-xl object-contain py-8">
           <Image
             src={product.image}
             alt={product.title}

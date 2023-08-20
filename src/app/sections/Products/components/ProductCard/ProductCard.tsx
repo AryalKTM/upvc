@@ -39,7 +39,7 @@ export default function ProductCard({ product }: Props) {
           {   
 
                (product.title==="Profiles")&&(
-                <div className="text-primary absolute bottom-8 left-8 text-md font-bold">
+                <div className="text-primary absolute bottom-14 left-8 text-md font-bold">
                 <div className="flex justify-start">
                 <div className="w-6 h-6 mr-2">
                 <ExclamationMark />

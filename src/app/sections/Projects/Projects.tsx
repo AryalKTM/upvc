@@ -19,7 +19,7 @@ const Projects = () => {
   return (
     <Section id="projects">
       <Title>
-        Our <TextUnderline>Projects</TextUnderline>
+        OUR PROJECTS
       </Title>
 
       <div className="lg:grid lg:grid-cols-4 lg:gap-5 lg:grid-rows-2 flex flex-col mx-auto px-6 lg:px-0 gap-10 mt-16 ">

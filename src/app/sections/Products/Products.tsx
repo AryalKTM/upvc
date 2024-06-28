@@ -125,7 +125,7 @@ const Products = () => {
   return (
     <Section className="" id="products">
       <Title>
-        OUR <TextUnderline>PRODUCTS</TextUnderline>
+        OUR PRODUCTS
       </Title>
       <div className="flex flex-col lg:flex-row flex-wrap mt-16 gap-y-6">
         {products.map((product, i) => (

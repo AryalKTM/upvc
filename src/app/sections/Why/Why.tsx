@@ -48,7 +48,7 @@ const Why = () => {
   return (
     <Section id="why">
       <Title>
-        WHY YOU SHOULD <TextUnderline>WORK WITH US</TextUnderline>
+        WHY YOU SHOULD WORK WITH US
       </Title>
       <div className="text-primary flex flex-col lg:flex-row flex-wrap py-11 pb-0 rounded-xl mt-4 lg:mt-16">
         {data.map(({ title, description }, i) => (

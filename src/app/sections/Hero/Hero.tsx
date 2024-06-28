@@ -25,10 +25,10 @@ const Hero = () => {
           </div>
           <div className="flex flex-col lg:basis-1/2 px-10 relative z-30 text-white lg:text-black bg-primary bg-opacity-50 lg:bg-white w-full h-[95vh] lg:w-auto lg:h-auto text-center lg:text-left items-center justify-center lg:items-start">
             <h1 className="font-bold lg:text-6xl text-4xl">
-              Nepal&apos;s first uPVC Excursion Plant
+              Nepal&apos;s first uPVC Extrusion Plant
             </h1>
             <p className="mt-6 text-base lg:text-xl">
-              Discover Nepal&apos;s first uPVC Excursion Plant, where innovation
+              Discover Nepal&apos;s first uPVC Extrusion Plant, where innovation
               meets quality. Experience superior uPVC solutions for windows,
               doors, and beyond. Step into the future of Nepalese architecture.
             </p>

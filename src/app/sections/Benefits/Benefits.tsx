@@ -52,12 +52,12 @@ const Benefits = () => {
   return (
     <Section className=" px-4" id="benefits">
       <Title>
-        <TextUnderline>BENEFITS</TextUnderline> OF USING uPVC
+        BENEFITS OF USING uPVC
       </Title>
 
       <div className="bg-primary text-white flex flex-col lg:flex-row flex-wrap py-11 px-7 lg:px-24 rounded-xl mt-8 ">
         {data.map(({ title, description, icon }, i) => (
-          <div className="basis-1/2 hover:bg-white hover:text-primary rounded-xl cursor-pointer iconcard group" key={title + "-" + i}>
+          <div className="basis-1/2" key={title + "-" + i}>
             <IconCard title={title} description={description} icon={icon} />
           </div>
         ))}

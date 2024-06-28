@@ -68,7 +68,7 @@ export default function Comparison() {
 
   return (
     <Section>
-        <Title><TextUnderline>uPVC</TextUnderline> vs its alternatives</Title>
+        <Title>uPVC vs its Alternatives</Title>
       <div className="px-5 overflow-x-auto mt-8 lg:mt-16">
         <table className="mx-auto">
           <tbody className="text-base lg:text-xl">

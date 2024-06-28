@@ -44,7 +44,7 @@ const TrustedBy = () => {
   return (
     <section className="py-20 px-10" id="trustedby">
       <Title>
-        <TextUnderline>TRUSTED</TextUnderline> BY
+        TRUSTED BY
       </Title>
       <br></br>
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-24 justify-center mt-20 items-center">

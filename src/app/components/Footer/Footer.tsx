@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Logo from "@/assets/images/logo.png";
-import { Email, Facebook, Location, Luminr, Phone } from "@/assets/icons";
+import Image from 'next/image'
+import Logo from '@/assets/images/logo.png'
+import { Email, Facebook, Location, Luminr, Phone } from '@/assets/icons'
 
 const Footer = () => {
   return (
@@ -11,33 +11,33 @@ const Footer = () => {
             <Image src={Logo} alt="Logo" />
 
             <div className="flex flex-row lg:flex-col mt-8 flex-wrap justify-center">
-              <p className="flex flex-row gap-2 items-center basis-1/2 justify-end lg:justify-start p-2 ">
+              <div className="flex flex-row gap-2 items-center basis-1/2 justify-end lg:justify-start p-2 ">
                 <span>
                   <Location />
-                </span>{" "}
+                </span>{' '}
                 <div className="flex flex-col pl-1">
-                <span>Attarkhel, Jorpati</span>
-                <span>Kathmandu, Nepal</span>
+                  <span>Attarkhel, Jorpati</span>
+                  <span>Kathmandu, Nepal</span>
                 </div>
-              </p>
+              </div>
               <p className="flex flex-row gap-2 items-center basis-1/2 p-2">
                 <span>
-                  <Email />{" "}
-                </span>{" "}
+                  <Email />{' '}
+                </span>{' '}
                 <a href="mailto:roadshowupvc@gmail.com">
-                  {" "}
+                  {' '}
                   roadshowupvc@gmail.com
                 </a>
               </p>
-              <p className="flex flex-row gap-2 items-center basis-1/2 justify-end lg:justify-start p-2">
+              <div className="flex flex-row gap-2 items-center basis-1/2 justify-end lg:justify-start p-2">
                 <span>
-                  <Phone />{" "}
+                  <Phone />{' '}
                 </span>
                 <div className="pl-1 flex flex-col">
-                <a href="tel:01-4912868">01-4912868</a>
-                <a href="tel:9851245933">+977 9851245933</a>
+                  <a href="tel:01-4912868">01-4912868</a>
+                  <a href="tel:9851245933">+977 9851245933</a>
                 </div>
-              </p>
+              </div>
 
               <div className="flex flex-row lg:flex-col items-start gap-3 basis-1/2 p-2">
                 <p>Follow us on:</p>
@@ -71,7 +71,7 @@ const Footer = () => {
         </p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

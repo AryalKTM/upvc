@@ -1,10 +1,11 @@
 type Props = {
-  close: () => void;
-};
-const Navigation = ({ close }: Props) => {
+  close: () => void
+  togglePopUp?: () => void
+}
+const Navigation = ({ close, togglePopUp }: Props) => {
   return (
     <>
-          <li onClick={() => close()}>
+      <li onClick={() => close()}>
         <a href="#trustedby"> Trusted By</a>
       </li>
       <li onClick={() => close()}>
@@ -22,8 +23,14 @@ const Navigation = ({ close }: Props) => {
       <li onClick={() => close()}>
         <a href="#faq"> FAQ</a>
       </li>
+      <li
+        className="cursor-pointer"
+        onClick={() => togglePopUp && togglePopUp()}
+      >
+        Profiles
+      </li>
     </>
-  );
-};
+  )
+}
 
-export default Navigation;
+export default Navigation

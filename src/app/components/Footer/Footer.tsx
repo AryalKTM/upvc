@@ -67,10 +67,7 @@ const Footer = () => {
 
         <hr className="h-[2px] my-2 bg-white border-0" />
         <p className="text-center font-medium text-white py-5 flex flex-row items-center gap-3 justify-center">
-          &copy; All rights reserved. Powered by{" "}
-          <a href="https://luminr.co" className="">
-            <Luminr />
-          </a>
+          &copy; All rights reserved. Roadshow uPVC Pvt. Ltd.
         </p>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Logo from '@/assets/images/logo.png'
-import { Email, Facebook, Location, Luminr, Phone } from '@/assets/icons'
+import { Email, Facebook, Location, Phone } from '@/assets/icons'
 
 const Footer = () => {
   return (
@@ -33,9 +33,9 @@ const Footer = () => {
                 <span>
                   <Phone />{' '}
                 </span>
-                <div className="pl-1 flex flex-col">
+                <div className=" flex flex-col">
                   <a href="tel:01-4912868">01-4912868</a>
-                  <a href="tel:9851245933">+977 9851245933</a>
+                  <a href="tel:+977-9851245933">+977-9851245933</a>
                 </div>
               </div>
 
@@ -67,7 +67,7 @@ const Footer = () => {
 
         <hr className="h-[2px] my-2 bg-white border-0" />
         <p className="text-center font-medium text-white py-5 flex flex-row items-center gap-3 justify-center">
-          &copy; All rights reserved. Roadshow uPVC Pvt. Ltd.
+          &copy; All Rights Reserved. Roadshow uPVC Pvt. Ltd.
         </p>
       </div>
     </div>
